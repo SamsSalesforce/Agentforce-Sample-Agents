@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hybrid Reasoning - Agentforce Build Session</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="topbar" aria-label="Site header">
+      <a class="brand" href="./index.html" aria-label="Hybrid Reasoning home">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>Hybrid Reasoning</span>
+      </a>
+      <span class="divider" aria-hidden="true"></span>
+      <span class="session-name">Agentforce Build Session</span>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-inner">
+          <p class="eyebrow">Agentforce Build Session</p>
+          <h1>Hybrid Reasoning</h1>
+          <h2>Hybrid reasoning patterns with Agentforce</h2>
+          <p class="hero-copy">Three agents - each showing how to design, structure, and build with hybrid reasoning.</p>
+        </div>
+      </section>
+
+      <section class="content-section" aria-labelledby="agents-title">
+        <div class="section-inner">
+          <p class="section-kicker" id="agents-title">Agents</p>
+          <div class="agent-grid">
+            <article class="card agent-card">
+              <div class="card-row">
+                <span class="pill pill-blue">Agent 1</span>
+                <span class="mini-pill">4 topics</span>
+              </div>
+              <h3>Order Details Agent</h3>
+              <p>A 4-topic build session - verify users, look up orders, manage cases, and route with a topic selector.</p>
+              <div class="card-actions">
+                <span>Build session</span>
+                <a href="agent1-order-details.html">Open <span aria-hidden="true">-&gt;</span></a>
+              </div>
+            </article>
+
+            <article class="card agent-card">
+              <div class="card-row">
+                <span class="pill pill-blue">Agent 2</span>
+                <span class="mini-pill">3 topics</span>
+              </div>
+              <h3>Opportunity Creation Agent</h3>
+              <p>Collect account name, identify the account, then gather fields and create the opportunity in Salesforce.</p>
+              <div class="card-actions">
+                <span>Example agent</span>
+                <a href="example-opportunity.html">Open <span aria-hidden="true">-&gt;</span></a>
+              </div>
+            </article>
+
+            <article class="card agent-card">
+              <div class="card-row">
+                <span class="pill pill-blue">Agent 3</span>
+                <span class="mini-pill">6 topics</span>
+              </div>
+              <h3>Sales Order Processing Agent</h3>
+              <p>Customer lookup, product selection, inventory validation, pricing, order review, and automated submission.</p>
+              <div class="card-actions">
+                <span>Example agent</span>
+                <a href="example-sales-order.html">Open <span aria-hidden="true">-&gt;</span></a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-section build-section" aria-labelledby="build-title">
+        <div class="section-inner">
+          <p class="section-kicker">Build Your Own Agent</p>
+          <h2 id="build-title">Design spec &amp; build prompt</h2>
+          <p class="section-copy">Fill out the spec template, save as PDF, and paste into Claude Code - it derives the actions, variables, and topics from your workflow and builds the agent for you.</p>
+
+          <div class="resource-grid">
+            <article class="card resource-card">
+              <span class="resource-icon blue-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" role="img">
+                  <path d="M6 3h8l4 4v14H6z"></path>
+                  <path d="M14 3v5h5"></path>
+                  <path d="M9 13h6M9 17h6"></path>
+                </svg>
+              </span>
+              <h3>Agent Spec Template</h3>
+              <p>The blank template. Fill in sections 1-7 - your agent basics, workflow diagram, intents, edge cases, tone, and security. Includes the Claude Code build prompt on the last page.</p>
+              <a class="button primary" href="downloads/agentforce-spec-and-prompt.docx" download>
+                <span aria-hidden="true">↓</span>
+                Download template
+              </a>
+            </article>
+
+            <article class="card resource-card">
+              <span class="resource-icon green-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" role="img">
+                  <path d="M6 3h8l4 4v14H6z"></path>
+                  <path d="M14 3v5h5"></path>
+                  <path d="m9 14 2 2 4-5"></path>
+                </svg>
+              </span>
+              <h3>Filled Example - Order Lookup Agent</h3>
+              <p>A fully completed spec using the Order Lookup Agent from this build session. Every field is answered. Use it as a reference while filling in the blank template.</p>
+              <a class="button secondary" href="downloads/agentforce-spec-example-order-lookup.docx" download>
+                <span aria-hidden="true">↓</span>
+                Download example
+              </a>
+            </article>
+          </div>
+
+          <aside class="howto" aria-labelledby="howto-title">
+            <span class="howto-icon" aria-hidden="true">i</span>
+            <div>
+              <h3 id="howto-title">How to use these files</h3>
+              <ol>
+                <li>Open the template. Use the filled example as a reference alongside it.</li>
+                <li>Fill in all 7 sections. Paste or insert your workflow diagram image into Section 2.</li>
+                <li>Save as PDF from your editor. Keep the diagram and all content in one file.</li>
+                <li>In Claude Code: attach the PDF and paste the build prompt from the last page.</li>
+              </ol>
+            </div>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>Agentforce Build Session</span>
+    </footer>
+  </body>
+</html>
